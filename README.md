@@ -21,18 +21,25 @@ The application begins with a welcome screen containing an introductory image an
 ---
 
 ## Project Structure
-
-.
-├── index.js
-├── InfoPanel.js
-├── TourismVR.js
+```
+tourism_vr/
+├── src/
+│ ├── TourismVR.js # Main welcome screen + VR start button
+│ ├── InfoPanel.js # Hover-expandable VR info panels
+│ ├── index.js # Entry point for React 360
+│ └── client.js # Client configuration for the VR environment
+│
 ├── static_assets/
-│   ├── info.png
-│   ├── poland.png
-│   ├── 1.jpg
-│   ├── 2.jpg
-│   └── 3.jpg
-└── client.js
+│ ├── poland.png # Introductory banner image
+│ ├── info.png # Default icon for info panels
+│ ├── 1.jpg # Attraction image sample
+│ ├── 2.jpg # Attraction image sample
+│ └── 3.jpg # Attraction image sample
+│
+├── package.json # Project metadata and dependencies
+├── README.md
+└── .gitignore
+```
 
 ---
 
